@@ -21,7 +21,7 @@ function scan(){
         console.log(maxDublicate)
         if(maxDublicate <= countControlDublicate){
             isStop = true
-            t[s].querySelector('.sc-1ied8f1-0.kMpmyN.sc-704av3-2.dAtQEZ').click();
+            t[s].querySelector('.sc-1ied8f1-0.kMpmyN.sc-704av3-2.dAtQEZ').click(); // Выделить найденный билет
         }
 
 
