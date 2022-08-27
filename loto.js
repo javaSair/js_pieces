@@ -21,14 +21,14 @@ function scan(){
         console.log(maxDublicate)
         if(maxDublicate <= countControlDublicate){
             isStop = true
-            t[s].querySelector('.sc-1ied8f1-0.kMpmyN.sc-704av3-2.dAtQEZ').click(); // Выделить найденный билет
+            t[s].querySelector('.sc-1ied8f1-0.kMpmyN.sc-704av3-2.dAtQEZ').click(); // Выделить найденный билет (в планшетной разметке)
         }
 
 
     }
  
         maxDublicate = 0;
-        // document.querySelector("button .sc-1ied8f1-0.kMpmyN.sc-sh3kwq-1.fxmBBb").click() // id="refreshTicketsBig"
+  
         if(!isStop)
             document.querySelector("#refreshTicketsBig").click()
             setTimeout(function(){
